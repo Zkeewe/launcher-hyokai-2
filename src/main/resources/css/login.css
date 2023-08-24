@@ -1,0 +1,48 @@
+@font-face {
+    src: url('/fonts/REM-VariableFont_wght.ttf');
+}
+
+.login-layout {
+    -fx-background: rgb(10, 12, 12);
+}
+
+.login-card {
+    -fx-background-color: white;
+}
+
+.background-image {
+    -fx-background-image: url("/images/background1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+}
+
+.login-card .login-title {
+    -fx-text-fill: rgb(18,5,35);
+    -fx-line-spacing: -30px;
+}
+
+.login-card .login-input {
+    -fx-background-color: rgb(221,160,221);
+    -fx-font-size: 20px;
+    -fx-background-radius: 10px;
+    -fx-prompt-text-fill: rgba(75,0,130,0.6);
+    -fx-text-full: rgb(75,0,130);
+}
+
+.login-card .login-error {
+    -fx-text-fill: rgb(245, 0, 0);
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
+
+.login-card .login-log-btn {
+    -fx-background-radius: 10px;
+    -fx-font-size: 35px;
+    -fx-text-fill: rgb(18,5,35);
+    -fx-font-family: 'REM Medium';
+    -fx-background-color: rgb(197,180,227);
+}
+
+.login-card .login-log-btn:hover {
+    -fx-background-color: rgb(177,162,202);
+}

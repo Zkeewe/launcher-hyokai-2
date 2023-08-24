@@ -1,0 +1,69 @@
+@font-face {
+    src: url('/fonts/REM-VariableFont_wght.ttf');
+}
+
+.app-layout {
+    -fx-background: rgb(10, 12, 12);
+}
+
+.sidemenu {
+    -fx-background-color: white;
+}
+
+.bg-image {
+    -fx-background-image: url("/images/background1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+}
+
+.home-title {
+    -fx-text-fill: rgb(18,5,35);
+    -fx-line-spacing: -30px;
+}
+
+.sidemenu-nav-btn {
+    -fx-border-width: 0 0 0 10px;
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+    -fx-text-alignment: left;
+    -fx-min-height: 60px;
+    -fx-max-height: 60px;
+    -fx-max-width: 350px;
+    -fx-border-color: transparent;
+    -fx-font-family: "REM Medium";
+}
+
+.sidemenu-nav-btn.button {
+    -fx-alignment: center-left;
+}
+
+.sidemenu-nav-btn:hover {
+    -fx-background-color: rgb(100, 100, 100, 0.3);
+}
+
+.sidemenu-nav-btn.active {
+    -fx-border-color: #8A2BE2;
+}
+
+.nav-content {
+    -fx-background-color: rgba(240, 240, 240, 0.4);
+}
+
+.user-pane {
+    -fx-background-color: rgba(186,85,211, 0.6);
+}
+
+.logout-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+}
+
+.logout-icon {
+    -fx-fill: white;
+}
+
+.logout-btn:hover {
+    -fx-background-radius: 10px;
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
